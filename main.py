@@ -32,8 +32,8 @@ columna=horas.active
 
 inicio = datetime.datetime.now()
 
-hoy=dt.datetime.now()
-micumple = dt.datetime(1999,5,10, 10, 25)
+hoy=dt.datetime(2021,4,6,)
+micumple = dt.datetime(1999,5,10)
 diferencia=hoy - micumple
 
 
