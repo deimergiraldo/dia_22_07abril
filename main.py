@@ -32,8 +32,8 @@ columna=horas.active
 
 inicio = datetime.datetime.now()
 
-t1 = dt.datetime.now()
-t2 = datetime.datetime(2016, 10, 1, 23,50, 1, 1) 
+t1 = dt.datetime.today()
+t2 = datetime.datetime(2016, 10, 1) 
 diferencia=t1-t2
 
 
@@ -59,5 +59,5 @@ columna['F4']=duracion
 
 horas.save('Ejecucion_tiempo.xlsx')
 
-
+print('Se ha ejecutado')
 
