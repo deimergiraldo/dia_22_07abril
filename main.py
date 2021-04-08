@@ -60,4 +60,3 @@ columna['F4']=duracion
 
 #Guardo todo en un nuevo documento y listo
 horas.save('Ejecucion_tiempo.xlsx')
-
