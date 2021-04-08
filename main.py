@@ -32,13 +32,14 @@ columna=horas.active
 
 inicio = datetime.datetime.now()
 
+hoy=dt.datetime.now()
 micumple = dt.datetime(1999,5,10, 10, 25)
-diferencia=dt.datetime.now() -micumple
+diferencia=hoy - micumple
 
 
 columna['D1']='Diferencia de fechas'
 for i in range(2,5):
-  columna[f'F{i}']=diferencia
+  columna[f'D{i}']=diferencia
 
 
 fin = datetime.datetime.now()
